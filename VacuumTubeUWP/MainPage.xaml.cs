@@ -38,7 +38,7 @@ namespace VacuumTubeUWP
                 // 1. Setup DevTools and Mappings
                 WebView.CoreWebView2.OpenDevToolsWindow();
                 WebView.CoreWebView2.SetVirtualHostNameToFolderMapping(
-                    "pixeltube.local", "src", CoreWebView2HostResourceAccessKind.Allow);
+                    "vacuumtubeuwp.local", "src", CoreWebView2HostResourceAccessKind.Allow);
 
                 // 2. Setup Events
                 WebView.CoreWebView2.WebResourceRequested += CoreWebView2_WebResourceRequested;
@@ -60,7 +60,7 @@ namespace VacuumTubeUWP
             }
             catch (Exception ex)
             {
-                System.Diagnostics.Debug.WriteLine($"[PixelTube] Init Error: {ex.Message}");
+                System.Diagnostics.Debug.WriteLine($"[VacuumTubeUWP] Init Error: {ex.Message}");
             }
         }
 
@@ -115,7 +115,7 @@ namespace VacuumTubeUWP
                         case "set-fullscreen":
                             // Xbox apps are usually fullscreen, but this handles the toggle
                             bool isFullscreen = value.ValueKind == JsonValueKind.True;
-                            System.Diagnostics.Debug.WriteLine($"[PixelTube] Fullscreen toggled: {isFullscreen}");
+                            System.Diagnostics.Debug.WriteLine($"[VacuumTubeUWP] Fullscreen toggled: {isFullscreen}");
                             break;
 
                         case "get-userstyles":
@@ -131,7 +131,7 @@ namespace VacuumTubeUWP
             }
             catch (Exception ex)
             {
-                System.Diagnostics.Debug.WriteLine($"[PixelTube] Bridge Error: {ex.Message}");
+                System.Diagnostics.Debug.WriteLine($"[VacuumTubeUWP] Bridge Error: {ex.Message}");
             }
         }
 
