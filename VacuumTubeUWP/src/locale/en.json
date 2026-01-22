@@ -1,0 +1,91 @@
+{
+    "general": {
+        "video_copied": "Video link copied to clipboard",
+        "dislikes": "Dislikes",
+        "steam_controller_notice": "External controller isn't detected? Try the steamdeck-input-disabler plugin from Decky.",
+        "encryption_error": {
+            "title": "Something went wrong",
+            "text": "This video couldn't be decoded. Movies aren't supported in VacuumTube due to encryption. If this happens on other videos, try logging in or switching accounts.",
+            "switch_accounts": "Switch Accounts",
+            "okay": "Okay"
+        }
+    },
+    "settings": {
+        "generic": {
+            "title": "Settings",
+            "description": "Opens the VacuumTube settings overlay. You can access this overlay anywhere by pressing Ctrl/Cmd+O on your keyboard, or R3 on your controller",
+            "button_label": "Open VacuumTube Settings",
+            "hint": "Use arrow keys to navigate"
+        },
+        "ad_block": {
+            "title": "Ad Block",
+            "description": "Seamlessly blocks video and feed ads, not subject to YouTube's methods of preventing blockers"
+        },
+        "sponsorblock": {
+            "title": "SponsorBlock",
+            "description": "Skips sponsor segments in YouTube videos using a crowdsourced database. Currently only supports skipping sponsors"
+        },
+        "dearrow": {
+            "title": "DeArrow",
+            "description": "Replaces titles and thumbnails with more accurate, less sensationalized versions from a public crowdsourced database. Slows down loading, as it has to fetch info from the server"
+        },
+        "dislikes": {
+            "title": "Return Dislikes",
+            "description": "Uses community data from the Return YouTube Dislike API (returnyoutubedislike.com) to show rough dislike counts. Slows down video loading, as it has to fetch info from the server"
+        },
+        "remove_super_resolution": {
+            "title": "Remove Super Resolution",
+            "description": "Remove \"Super resolution\" (AI upscaled) qualities from low quality videos"
+        },
+        "hide_shorts": {
+            "title": "Hide Shorts",
+            "description": "Hides YouTube Shorts from the homepage"
+        },
+        "h264ify": {
+            "title": "Force H.264 (h264ify)",
+            "description": "Forces YouTube to only stream videos in the H.264 codec. This can help with performance and battery life on slower devices, but prevents you from watching anything above 1080p. Relaunch after toggling."
+        },
+        "hardware_decoding": {
+            "title": "Hardware Decoding",
+            "description": "Uses your GPU to decode videos when possible. Disabling this may fix playback issues, but can cause lag depending on your CPU. Relaunch after toggling."
+        },
+        "low_memory_mode": {
+            "title": "Low Memory Mode",
+            "description": "Tells YouTube to enable low memory mode, which may improve performance on slower devices at the cost of some visual effects. Relaunch after toggling."
+        },
+        "fullscreen": {
+            "title": "Fullscreen",
+            "description": "Enables fullscreen, and makes VacuumTube always launch in fullscreen"
+        },
+        "keep_on_top": {
+            "title": "Keep on Top",
+            "description": "Enables Keep on Top, and makes VacuumTube launch with the window pinned on top of every other window"
+        },
+        "userstyles": {
+            "title": "Custom CSS (Userstyles)",
+            "description": "Place .css files in the userstyles folder to customize the interface. Changes are applied automatically.",
+            "warn_empty": "No userstyles found",
+            "open_folder": "Open Userstyles folder",
+            "enable": "Enable Userstyles",
+            "failed_to_load": "Failed to load userstyles"
+        },
+        "controller_support": {
+            "title": "Controller Support",
+            "description": "Enables support for game controllers, including navigation and video playback controls. Requires an external controller, such as an Xbox Controller."
+        },
+        "wayland_hdr": {
+            "title": "Wayland HDR",
+            "description": "Enables HDR when using Wayland, but can cause desaturated colors with unsupported platforms. Relaunch after toggling."
+        }
+    },
+    "sponsorblock": {
+        "sponsor_skipped": "Sponsor skipped"
+    },
+    "donate": {
+        "setting": {
+            "title": "Donate",
+            "description": "Support VacuumTube's development by making a donation! You can donate by visiting shy.rocks/donate, or by pressing the button below to open the donation page in your browser",
+            "button_label": "Donate"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "VacuumTubeUWP": {
+      "commandName": "MsixPackage"
+    }
+  }
+}
