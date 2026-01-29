@@ -15,7 +15,7 @@
     </a>
 </p>
 
-VacuumTubeUWP is an unofficial wrapper of YouTube Leanback (the console and Smart TV version of YouTube) for Xbox (Sideloaded in Dev Mode), with a built-in adblocker and minor enhancements.
+VacuumTubeUWP is an unofficial project (modeled after VacuumTube) of YouTube Leanback (the console and Smart TV version of YouTube) for Xbox (Sideloaded in Dev Mode), with a built-in adblocker and minor enhancements.
 
 ## What exactly is this?
 
@@ -139,5 +139,6 @@ npm run linux:build(-unpacked,-appimage)
 ```
 
 ### Thanks:
+
 
 - [shy1132](https://github.com/shy1132) of [VacuumTube](https://github.com/shy1132/VacuumTube) for the JavaScript preload scripts that I utilized and modified
